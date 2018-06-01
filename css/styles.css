@@ -437,7 +437,7 @@ body {
         font-variant-ligatures: common-ligatures;
     }
 }
-
+/*
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
@@ -445,6 +445,7 @@ and (max-device-width : 667px) {
     max-width: 20em;
   }
 };
+*/
 
 p {
   margin: 0;
