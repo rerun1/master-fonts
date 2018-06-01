@@ -1,3 +1,5 @@
+
+
 /* Redundancies and lack of shorthand use is intentional — too many bugs without */
 
 
@@ -435,6 +437,14 @@ body {
         font-variant-ligatures: common-ligatures;
     }
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  body {
+    max-width: 20em;
+  }
+};
 
 p {
   margin: 0;
