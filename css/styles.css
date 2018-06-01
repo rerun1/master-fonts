@@ -1,4 +1,4 @@
-
+Lato-Black
 
 /* Redundancies and lack of shorthand use is intentional — too many bugs without */
 
@@ -6,71 +6,81 @@
 /* Akzidenz Grotesk converted */
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroLig.eot');
-  src : url('../fonts/AkzidGroLig.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroLig.woff') format('woff'),
-        url('../fonts/AkzidGroLig.ttf') format('truetype');
+  src : url('../fonts/akzidenz/Akzidenz/AkzidGroLig.eot');
+  src : url('../fonts/akzidenz/AkzidGroLig.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroLig.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroLig.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroLig.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroRom.eot');
-  src : url('../fonts/AkzidGroRom.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroRom.woff') format('woff'),
-        url('../fonts/AkzidGroRom.ttf') format('truetype');
+  src : url('../fonts/akzidenz/AkzidGroRom.eot');
+  src : url('../fonts/akzidenz/AkzidGroRom.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRom.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRom.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroRom.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 /* altered Berthold name to make this Italic */
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroRomIt.eot');
-  src : url('../fonts/AkzidGroRomIt.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroRomIt.woff') format('woff'),
-        url('../fonts/AkzidGroRomIt.ttf') format('truetype');
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroRomIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroRomIt.woff') format('woff'),        url('../fonts/akzidenz/AkzidGroRomIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroBol.eot');
-  src : url('../fonts/AkzidGroBol.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroBol.woff') format('woff'),
-        url('../fonts/AkzidGroBol.ttf') format('truetype');
+  src : url('../fonts/akzidenz/AkzidGroBol.eot');
+  src : url('../fonts/akzidenz/AkzidGroBol.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBol.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBol.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBol.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 /* altered Berthold name to make this Italic */
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroBolIt.eot');
-  src : url('../fonts/AkzidGroBolIt.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroBolIt.woff') format('woff'),
-        url('../fonts/AkzidGroBolIt.ttf') format('truetype');
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot');
+  src : url('../fonts/akzidenz/AkzidGroBolIt.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff2') format('woff2'),
+        url('../fonts/akzidenz/AkzidGroBolIt.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBolIt.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Akzidenz-Grotesk';
-  src : url('../fonts/AkzidGroBla.eot');
-  src : url('../fonts/AkzidGroBla.eot?#iefix') format('eot'),
-        url('../fonts/AkzidGroBla.woff') format('woff'),
-        url('../fonts/AkzidGroBla.ttf') format('truetype');
+  src : url('../fonts/akzidenz/AkzidGroBla.eot');
+  src : url('../fonts/akzidenz/AkzidGroBla.eot?#iefix') format('eot'),
+        url('../fonts/akzidenz/AkzidGroBla.woff2') format('woff2'),        url('../fonts/akzidenz/AkzidGroBla.woff') format('woff'),
+        url('../fonts/akzidenz/AkzidGroBla.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 /* End Akzidenz */
 
@@ -81,6 +91,8 @@
   font-weight: 300;/* bodoni light */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -88,6 +100,8 @@
   font-weight: 300;/* bodoni light oblique*/
   font-style: italic;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -95,6 +109,8 @@
   font-weight: 500;/* bodoni medium */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -102,6 +118,8 @@
   font-weight: 500;/* bodoni medium oblique*/
   font-style: italic;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -109,6 +127,8 @@
   font-weight: 700;/* bodoni Bold */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -116,6 +136,8 @@
   font-weight: 700;/* bodoni bold oblique */
   font-style: italic;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -123,6 +145,8 @@
   font-weight: 800;/* bodoni extra bold */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -130,6 +154,8 @@
   font-weight: 800;/* bodoni extra bold oblique*/
   font-style: italic;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'bodoni-urw';
@@ -137,6 +163,8 @@
   font-weight: 800;/* bodoni extra bold */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 /* @import url("https://use.typekit.net/rvi3agd.css"); */
 /* end bodoni typekit urw */
@@ -144,9 +172,56 @@
 /* cantarell family sans serif*/
 @font-face {
   font-family: 'cantarell';
-  src : url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i');
+  src : url('../fonts/cantarell/Cantarell-Regular.eot');
+  src : url('../fonts/cantarell/Cantarell-Regular.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Regular.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Regular.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Regular.ttf') format('truetype');
+  font-weight: 400; /* cantarell regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
-
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-Oblique.eot');
+  src : url('../fonts/cantarell/Cantarell-Oblique.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Oblique.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Oblique.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Oblique.ttf') format('truetype');
+  font-weight: 400; /* cantarell regular oblique*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-Bold.eot');
+  src : url('../fonts/cantarell/Cantarell-Bold.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Bold.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Bold.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Bold.ttf') format('truetype');
+  font-weight: 700; /* cantarell bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-BoldOblique.eot');
+  src : url('../fonts/cantarell/Cantarell-BoldOblique.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-BoldOblique.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-BoldOblique.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-BoldOblique.ttf') format('truetype');
+  font-weight: 700; /* cantarell bold oblique*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
 /* @import url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i'); */
 
 /* copperplate typekit */
@@ -156,13 +231,17 @@
   font-weight: 300;/* copperplate light */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'copperplate';
   src : url("https://use.typekit.net/rvi3agd.css");
   font-weight: 500;/* copperplate medium */
-  font-style: normal;
+  font-style: italic;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'copperplate';
@@ -170,6 +249,8 @@
   font-weight: 700;/* copperplate bold */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'copperplate-condensed';
@@ -184,6 +265,8 @@
   font-weight: 500;/* copperplate medium condensed */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;;
 }
 @font-face {
   font-family: 'copperplate-condensed';
@@ -191,112 +274,131 @@
   font-weight: 700;/* copperplate bold condensed */
   font-style: normal;
   font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
 /* @import url("https://use.typekit.net/rvi3agd.css"); */
 
 /* Copperplate Gothic Thirty Three BC made from Font Converter */
 @font-face {
   font-family: 'copperplate';
-  src : url('../fonts/CoppeThiThrBC.eot');
-  src : url('../fonts/CoppeThiThrBC.eot?#iefix') format('eot'),
-        url('../fonts/CoppeThiThrBC.woff') format('woff'),
-        url('../fonts/CoppeThiThrBC.ttf') format('truetype');
+  src : url('../fonts/coppeGothicThiThr/CoppeThiThrBC.eot');
+  src : url('../fonts/coppeGothicThiThr/CoppeThiThrBC.eot?#iefix') format('eot'),
+        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.woff2') format('woff2'),        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.woff') format('woff'),
+        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 /* end copperplate */
 
 /* guardian Egyption - in master fonts folder — adapted from guss fonts @ github for prototyping */
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-Light.eot');
-  src : url('../fonts/GuardianEgyptianWeb-Light.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-Light.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-Light.ttf') format('truetype');
-  font-weight: 300;
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.ttf') format('truetype');
+  font-weight: 300;/* Eygptian Light */
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-Regular.eot');
-  src : url('../fonts/GuardianEgyptianWeb-Regular.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-Regular.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-Regular.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-RegularItalic.eot');
-  src : url('../fonts/GuardianEgyptianWeb-RegularItalic.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-RegularItalic.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-RegularItalic.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-Medium.eot');
-  src : url('../fonts/GuardianEgyptianWeb-Medium.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-Medium.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-Medium.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-Semibold.eot');
-  src : url('../fonts/GuardianEgyptianWeb-Semibold.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-Semibold.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-Semibold.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-SemiboldItalic.eot');
-  src : url('../fonts/GuardianEgyptianWeb-SemiboldItalic.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-SemiboldItalic.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-SemiboldItalic.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-Bold.eot');
-  src : url('../fonts/GuardianEgyptianWeb-Bold.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-Bold.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-Bold.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'GuardianEgyptianWeb';
-  src : url('../fonts/GuardianEgyptianWeb-BoldItalic.eot');
-  src : url('../fonts/GuardianEgyptianWeb-BoldItalic.eot?#iefix') format('eot'),
-        url('../fonts/GuardianEgyptianWeb-BoldItalic.woff') format('woff'),
-        url('../fonts/GuardianEgyptianWeb-BoldItalic.ttf') format('truetype');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 /* End Eygption Guardian Web Font from github */
 
@@ -304,25 +406,150 @@
 /* Journal - handwriting - in master fonts folder */
 @font-face{
   font-family : 'handwriting';
-  src : url('../fonts/journal.eot');
-  src : url('../fonts/journal.eot?#iefix') format('eot'),
-        url('../fonts/journal.woff') format('woff'),
-        url('../fonts/journal.ttf') format('truetype');
+  src : url('../fonts/journalHand/journal.eot');
+  src : url('../fonts/journalHand/journal.eot?#iefix') format('eot'),
+        url('../fonts/journalHand/journal.woff2') format('woff2'),
+        url('../fonts/journalHand/journal.woff') format('woff'),
+        url('../fonts/journalHand/journal.ttf') format('truetype');
   font-weight: normal;
   font-style: cursive;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 
-
+/* Lato downloaded from google fonts */
 @font-face {
   font-family: 'lato';
-  src : url('https://fonts.googleapis.com/css?family=Lato');
-  font-weight: 400;
+  src : url('../fonts/lato/Lato-Hairline.eot');
+  src : url('../fonts/lato/Lato-Hairline.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Hairline.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Hairline.woff') format('woff'),
+        url('../fonts/lato/Lato-Hairline.ttf') format('truetype');
+  font-weight: 100; /* lato thin */
   font-style: normal;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-HairlineItalic.eot');
+  src : url('../fonts/lato/Lato-HairlineItalic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-HairlineItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-HairlineItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-HairlineItalic.ttf') format('truetype');
+  font-weight: 100; /* lato thin italic 400, 700, 900 */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Light.eot');
+  src : url('../fonts/lato/Lato-Light.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Light.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Light.woff') format('woff'),
+        url('../fonts/lato/Lato-Light.ttf') format('truetype');
+  font-weight: 300; /* lato light */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-LightItalic.eot');
+  src : url('../fonts/lato/Lato-LightItalic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-LightItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-LightItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-LightItalic.ttf') format('truetype');
+  font-weight: 300; /* lato light italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Regular.eot');
+  src : url('../fonts/lato/Lato-Regular.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400; /* lato regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Italic.eot');
+  src : url('../fonts/lato/Lato-Italic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Italic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Italic.woff') format('woff'),
+        url('../fonts/lato/Lato-Italic.ttf') format('truetype');
+  font-weight: 400; /* lato italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Bold.eot');
+  src : url('../fonts/lato/Lato-Bold.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Bold.woff') format('woff'),
+        url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700; /* lato bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-BoldItalic.eot');
+  src : url('../fonts/lato/Lato-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-BoldItalic.ttf') format('truetype');
+  font-weight: 700; /* lato bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Black.eot');
+  src : url('../fonts/lato/Lato-Black.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Black.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Black.woff') format('woff'),
+        url('../fonts/lato/Lato-Black.ttf') format('truetype');
+  font-weight: 900; /* lato black */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-BlackItalic.eot');
+  src : url('../fonts/lato/Lato-BlackItalic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-BlackItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-BlackItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-BlackItalic.ttf') format('truetype');
+  font-weight: 900; /* lato black italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end lato */
 
 
 /* Veteran Typewriter - monospace - in master fonts folder */
@@ -336,6 +563,7 @@
   font-style: monospace;
   font-variant: normal;
   font-stretch: normal;
+  font-display: swap;
 }
 
 /* Ubuntu */
@@ -437,15 +665,7 @@ body {
         font-variant-ligatures: common-ligatures;
     }
 }
-/*
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-  body {
-    max-width: 20em;
-  }
-};
-*/
+
 
 p {
   margin: 0;
@@ -469,10 +689,13 @@ hr {
 
 /* descriptor lato googleapis light */
 .lato {
-  font-family: 'Lato', sans-serif;
-  font-variant: normal;
-  font-style: normal;
+  font-family: 'Lato', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+    'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+    'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
 }
 .small {
   font-size: .5em;
@@ -613,7 +836,7 @@ hr {
 
 /* cantarell googleapis light and light oblique */
 .cantarell {
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Cantarell', Verdana, Geneva, sans-serif;
   font-variant: normal;
   line-height: 1.35;
 }
@@ -637,7 +860,7 @@ hr {
 
 /* copperplate and copperplate condensed typekit */
 .copperplate {
-  font-family: 'copperplate', serif;
+  font-family: 'copperplate', fantasy;
   font-variant: normal;
   font-size: .9em;
 }
@@ -660,7 +883,7 @@ hr {
   word-spacing: .04em;
 }
 .copperplateCondensed {
-  font-family: 'copperplate-condensed', serif;
+  font-family: 'copperplate-condensed', fantasy;
   font-variant: normal;
   font-size: .9em;
 }
@@ -684,7 +907,7 @@ hr {
 }
 /* Copperplate Gothic Thirty Three Converted */
 .copperplateThirtyThreeBC {
-  font-family: 'copperplate', serif;
+  font-family: 'copperplate', fantasy;
   font-variant: normal;
   font-weight: normal;
   font-style: normal;
@@ -742,7 +965,9 @@ hr {
 
 /* Veteran Typewriter monospace */
 .veteranTypewriter {
-  font-family: 'typewriter', monospace;
+  font-family: 'typewriter', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;;
   font-variant: normal;
   font-weight: normal;
   font-style: monospace;
