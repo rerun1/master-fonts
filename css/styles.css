@@ -855,12 +855,18 @@ li {
   color: #660000;
 }
 a {
+  display: inline-block;
   text-decoration: none;
   font-size: .8em;
-  margin: 2em 0 0 0;
+  margin: .25em 0;
   color: #660000;
+  outline: none;
   /* same style as h2 heads for typeface family names and list items */
 }
+a:hover {
+  color: #b30000;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -962,13 +968,6 @@ hr {
   letter-spacing: .02em;
   margin: 1em 0 3em 0;
 }
-/* .special {
-  line-height: 1;
-  letter-spacing: -.01em;
-}
-.special p {
-  margin: 1em 0 1.5em 0;
-} */
 .ltrsp {
   letter-spacing: .1em;
 }
