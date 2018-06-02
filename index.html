@@ -19,22 +19,31 @@
   <body>
     <h1 class="lato large">Master Font List</h1>
     <div class="tocContainer">
-      <ul><span class="tocHead">Sans serif</span>
-        <li><a href="#akzidenz"  class="akzidenz akzidenzReg">Akzidenz Grotesk <span class="lato small">(& condensed)</span></a></li>
-        <li><a href="#cantarell" class="cantarell cantarellReg noltrsp">Cantarell</a></li>
-        <li><a href="#lato"  class="latoSample latoReg">Lato</a></li>
-        <li><a href="#ubuntu" class="ubuntu ubuntuReg noltrsp">Ubuntu <span class="lato small">(& condensed)</span></a></li>
-      </ul>
+      <div class="tocColumn">
+        <ul><span class="tocHead">Sans serif</span>
+          <li><a href="#akzidenz"  class="akzidenz akzidenzReg">Akzidenz Grotesk <span class="lato small">(& condensed)</span></a></li>
+          <li><a href="#cantarell" class="cantarell cantarellReg noltrsp">Cantarell</a></li>
+          <li><a href="#lato"  class="latoSample latoReg">Lato</a></li>
+          <li><a href="#ubuntu" class="ubuntu ubuntuReg noltrsp">Ubuntu <span class="lato small">(& condensed)</span></a></li>
+        </ul>
+     </div>
+     <div class="tocColumn">
       <ul><span class="tocHead">Serif</span>
         <li><a href="#bodoni" class="bodoni bodoniMedium">Bodoni <span class="lato small">(urw+)</span></a></li>
         <li><a href="#eygptian" class="eygptian egyptionReg">Eygptian <span class="lato small">(prototype)</span></a></li>
+        <li><a href="#copperplate" class="tocCopperplate copperplateMedium">Copperplate <span class="lato small">(& condensed)</span></a></li>
       </ul>
-      <ul><span class="tocHead">Monospace</span>
-        <li><a href="#veteran" class="veteranTypewriter">Veteran Typewriter</a></li>
-      </ul>
-      <ul><span class="tocHead">Script</span>
-        <li><a href="#journal" class="journal">Journal</a></li>
-      </ul>
+      </div>
+      <div class="tocColumn">
+        <ul><span class="tocHead">Monospace</span>
+          <li><a href="#veteran" class="veteranTypewriter">Veteran Typewriter</a></li>
+        </ul>
+      </div>
+      <div class="tocColumn">
+        <ul><span class="tocHead">Script</span>
+          <li><a href="#journal" class="journal">Journal</a></li>
+        </ul>
+      </div>
     </div>
     <hr class="colorbar">
     <div class="fiftyChar">
@@ -43,9 +52,9 @@
       <hr>
       <div class="akzidenz akzidenzLight">
         <div class="special">
-          <p>abcdefghijklmnopqrstuvwxy</p>
-          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-          <p class="lessltrsp">1 2 3 4 5 6 7 8 9 0&nbsp;&nbsp;? ! @ # $ % * ( { " '</p>
+          <p>a b c d e f g h i j k l m n o p q r s t u v w x y</p><br>
+          <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p><br>
+          <p class="lessltrsp">1 2 3 4 5 6 7 8 9 0&nbsp;&nbsp;? ! @ # $ % * ( { " '</p><br>
         </div>
         <p lang="fr" xml:lang="fr" class="hideSample">Ser or varta liquis, cu yav nirya tuilë foina, lápa nirya yén na. Us mear isqua vai. Oi ainu lívë fas, ya occo vacco lir. Mírëa pereldar halyavasarya né nat. As nixë tacil nir, wen tengwo atacar lingwë ma. Toa uë tólë ailin laira, wén uë tata isqua, teren vilya holmë quí mí. Hón ar lasta hecil úquétima, óla en mear naitya. Rip cé sáma ascarima. Lia é cenvéla amilessë. Cú alma arca lorna úrë.</p>
         <br>
@@ -357,7 +366,7 @@
       </div>
       <hr class="colorbar">
 
-      <h2 class="lato medium">cantarell</h2>
+      <h2 class="lato medium"><a name="cantarell">cantarell</a></h2>
       <p class="lato small">Cantarell Regular</p>
       <hr>
       <div class="cantarell cantarellReg">
@@ -412,7 +421,7 @@
       </div>
       <hr class="colorbar">
 
-      <h2 class="lato medium">copperplate</h2>
+      <h2 class="lato medium"><a name="copperplate">copperplate</a></h2>
       <p class="lato small">Copperplate Light</p>
       <hr>
       <div class="copperplate copperplateLight">
@@ -507,7 +516,7 @@
       </div>
       <hr class="colorbar">
 
-      <h2 class="lato medium">Eygption</h2>
+      <h2 class="lato medium"><a name="eygptian">Eygption</a></h2>
       <p class="lato small">Egyption Light</p>
       <hr>
       <div class="egyption egyptionLight">
@@ -615,7 +624,7 @@
 
       <hr class="colorbar">
 
-      <h2 class="lato medium">Journal</h2>
+      <h2 class="lato medium"><a name="journal">Journal</a></h2>
       <p class="lato small">Script — Handwriting</p>
       <hr>
       <div class="journal">
@@ -763,7 +772,7 @@
       </div>
       <!-- end lato -->
       <hr class="colorbar">
-      <h2 class="lato medium">Ubuntu</h2>
+      <h2 class="lato medium"><a name="ubuntu">Ubuntu</a></h2>
       <p class="lato small">Ubuntu Light</p>
       <hr>
       <div class="ubuntu ubuntuLight">
@@ -883,7 +892,7 @@
       </div>
       <hr class="colorbar">
 
-      <h2 class="lato medium">Veteran Typewriter</h2>
+      <h2 class="lato medium"><a name="veteran">Veteran Typewriter</h2>
       <p class="lato small">Monospace</p>
       <hr>
       <div class="veteranTypewriter">

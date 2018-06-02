@@ -839,6 +839,21 @@ body {
         font-variant-ligatures: common-ligatures;
     }
 }
+
+ul {
+  list-style-type: none;
+  padding: 0 2em 0 0;
+  margin: 0 0 2.5em 0;
+}
+ul:last-of-type {
+  padding:0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  color: #660000;
+}
 a {
   text-decoration: none;
   font-size: .8em;
@@ -846,17 +861,6 @@ a {
   color: #660000;
   /* same style as h2 heads for typeface family names and list items */
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-li {
-  margin: 0;
-  padding: 0;
-}
-
 p {
   margin: 0;
   padding: 0;
@@ -872,7 +876,7 @@ h2 {
   text-align: left;
 }
 hr {
-  margin: -.125em 0 1em -.125em;
+  margin: -.125em 0 1em  0;
 }
 .colorbar {
   background-color: #bebebe;
@@ -918,10 +922,21 @@ hr {
 /* End descriptor styles */
 
 .tocContainer {
-  display: grid;
-  grid-template-columns: 24% 24% 24% 24%;
-  grid-column-gap: .5em;
-  margin: .5em 0 1.5em 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 0;
+}
+.tocColumn {
+  width: 25%;
+  min-width: 10em;
 }
 .tocHead {
   font-family: 'Lato', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
@@ -935,6 +950,11 @@ hr {
   color: #888888;
   letter-spacing: .03em;
 }
+.tocCopperplate {
+  font-family: 'copperplate', fantasy;
+  font-variant: normal;
+  font-size: .8em;
+}
 
 /* global styles for samples and descriptors*/
 .caps {
@@ -942,13 +962,13 @@ hr {
   letter-spacing: .02em;
   margin: 1em 0 3em 0;
 }
-.special {
-  line-height: .85;
-  letter-spacing: .125em;
+/* .special {
+  line-height: 1;
+  letter-spacing: -.01em;
 }
 .special p {
   margin: 1em 0 1.5em 0;
-}
+} */
 .ltrsp {
   letter-spacing: .1em;
 }
@@ -959,6 +979,7 @@ hr {
   letter-spacing: 0em;
 }
 .fiftyChar {
+  width: 100%;
   max-width: 25em;
   margin: -.5em 0 0 0;
 }
