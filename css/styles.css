@@ -827,7 +827,7 @@ font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
 body {
     font-feature-settings: "liga" 1;
     font-size: 30px;
-    line-height: 1.5;
+    line-height: 1;
     color: black;
     margin: 0 1em;
     padding: 0;
@@ -857,7 +857,7 @@ li {
 a {
   display: inline-block;
   text-decoration: none;
-  font-size: .8em;
+  font-size: .75em;
   margin: .25em 0;
   color: #660000;
   outline: none;
@@ -865,12 +865,6 @@ a {
 }
 a:hover {
   color: #b30000;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  text-align: left;
 }
 h1 {
   margin: .5em 0 .5em -.125em;
@@ -881,8 +875,18 @@ h2 {
   padding: 0;
   text-align: left;
 }
+h3 {
+  margin: .125em 0;
+  padding:0;
+  text-align: left;
+}
+p {
+  margin: .75em 0;
+  padding: 0;
+  text-align: left;
+}
 hr {
-  margin: -.125em 0 1em  0;
+  margin: -.125em 0 .75em  0;
 }
 .colorbar {
   background-color: #bebebe;
@@ -906,10 +910,11 @@ hr {
 }
 
 .medium {
+  font-size: 1.15em;
   font-weight: 900;
   font-variant-caps: all-small-caps;
   letter-spacing: .125em;
-  margin: 2em 0 0 0;
+  margin: 2em 0 1em 0;
   color: #660000;
 }
 .large {
@@ -919,7 +924,7 @@ hr {
 }
 .small {
   font-size: .55em;
-  margin: 2em 0 .5em 0;
+  margin: 3em 0 .5em 0;
   color: #888888;
   letter-spacing: .01em;
 }
@@ -968,6 +973,12 @@ hr {
   letter-spacing: .02em;
   margin: 1em 0 3em 0;
 }
+.minusXLtrsp {
+  letter-spacing: -.07em;
+}
+.minusLtrsp {
+  letter-spacing: -.02em;
+}
 .ltrsp {
   letter-spacing: .1em;
 }
@@ -982,12 +993,38 @@ hr {
   max-width: 25em;
   margin: -.5em 0 0 0;
 }
-.hideSample {
-  display: none;
-  margin: -1em 0;
-}
+
 .showSample {
-  display: block;
+  font-style:italic;
+  color: #BEBEBE;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 0 1em 0;
+}
+.showSample:hover {
+  color: #888888;
+}
+
+input[type="checkbox"]  {
+ display: none; /* hide the checkboxes */
+}
+input + .showSample +  div {
+  display:none;
+}
+.showSample:before {
+    content:'▼';
+    color: #000;
+}
+:checked  + .showSample:before {
+  content:'▲';
+  color: #000;
+  }
+input:checked + .showSample + div{
+  display:block;
+}
+.sampleParagraph {
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
 }
 
 /* Begin styles for fonts in alpha order by family */
