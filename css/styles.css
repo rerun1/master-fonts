@@ -297,21 +297,62 @@
   font-stretch: normal;
   font-display: swap;
 }
+/* end cantarell */
+
+/* ITC cheltenham serif*/
 @font-face {
-  font-family: 'cantarell';
-  src : url('../fonts/cantarell/Cantarell-BoldOblique.eot');
-  src : url('../fonts/cantarell/Cantarell-BoldOblique.eot?#iefix') format('eot'),
-        url('../fonts/cantarell/Cantarell-BoldOblique.woff2') format('woff2'),
-        url('../fonts/cantarell/Cantarell-BoldOblique.woff') format('woff'),
-        url('../fonts/cantarell/Cantarell-BoldOblique.ttf') format('truetype');
-  font-weight: 700; /* cantarell bold oblique*/
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBoo.eot');
+  src : url('../fonts/cheltenham/CheltBoo.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBoo.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBoo.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBoo.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBooIta.eot');
+  src : url('../fonts/cheltenham/CheltBooIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBooIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBooIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBooIta.ttf') format('truetype');
+  font-weight: 400; /* cheltenham book italic*/
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
   font-display: swap;
 }
-/* @import url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i'); */
-
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBol.eot');
+  src : url('../fonts/cheltenham/CheltBol.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBol.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBol.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBol.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cheltenham';
+  src : url('../fonts/cheltenham/CheltBolIta.eot');
+  src : url('../fonts/cheltenham/CheltBolIta.eot?#iefix') format('eot'),
+        url('../fonts/cheltenham/CheltBolIta.woff2') format('woff2'),
+        url('../fonts/cheltenham/CheltBolIta.woff') format('woff'),
+        url('../fonts/cheltenham/CheltBolIta.ttf') format('truetype');
+  font-weight: 700; /* cheltenham bold italic*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end cheltenham */
 /* copperplate typekit */
 @font-face {
   font-family: 'copperplate';
@@ -1208,6 +1249,32 @@ input:checked + .showSample + div{
   font-weight: 700;
 }
 /* end cantarell */
+/* cantarell downloaded from google */
+.cheltenham {
+  font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
+    'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
+    'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow',
+    'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+    Georgia, serif;
+  font-variant: normal;
+}
+.cheltenhamBook {
+  font-style: normal;
+  font-weight: 400;
+}
+.cheltenhamBookItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.cheltenhamBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.cheltenhamBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* end cantarell */
 
 /* copperplate and copperplate condensed typekit */
 .copperplate {
@@ -1313,7 +1380,7 @@ input:checked + .showSample + div{
   font-weight: normal;
   font-style: cursive;
 }
-/* cantarell downloaded from google */
+/* lato downloaded from google */
 .latoSample {
     font-family: 'Lato', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
       'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',

@@ -1,0 +1,234 @@
+/* Lato downloaded from google fonts abbrev*/
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Regular.eot');
+  src : url('../fonts/lato/Lato-Regular.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400; /* lato regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Italic.eot');
+  src : url('../fonts/lato/Lato-Italic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Italic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Italic.woff') format('woff'),
+        url('../fonts/lato/Lato-Italic.ttf') format('truetype');
+  font-weight: 400; /* lato italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-Bold.eot');
+  src : url('../fonts/lato/Lato-Bold.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Bold.woff') format('woff'),
+        url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700; /* lato bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'lato';
+  src : url('../fonts/lato/Lato-BoldItalic.eot');
+  src : url('../fonts/lato/Lato-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/lato/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-BoldItalic.ttf') format('truetype');
+  font-weight: 700; /* lato bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 400;/* tisa regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 400;/* tisa regular italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 700;/* tisa bold*/
+  font-style: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url("https://use.typekit.net/rvi3agd.css");
+  font-weight: 700;/* tisa bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+body {
+    font-feature-settings: "liga" 1;
+    font-size: 30px;
+    line-height: 1;
+    color: black;
+    margin: 0 1em;
+    padding: 0;
+}
+@supports (font-variant-ligatures: common-ligatures) {
+    body {
+        font-feature-settings: normal;
+        font-variant-ligatures: common-ligatures;
+    }
+}
+hr {
+  margin: -.125em 0 .75em  0;
+}
+.colorbar {
+  background-color: #bebebe;
+  height: 1em;
+  border:0;
+  color: #bebebe;
+  margin: 0 0 3em -.125em;
+}
+/* descriptor lato googleapis light */
+.lato {
+  font-family: 'Lato', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans',
+    'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed',
+    'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+}
+.medium {
+  font-size: 1.15em;
+  font-weight: 900;
+  font-variant-caps: all-small-caps;
+  letter-spacing: .125em;
+  margin: 2em 0 1em 0;
+  color: #660000;
+}
+.large {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: #808080;
+}
+.small {
+  font-size: .55em;
+  margin: 3em 0 .5em 0;
+  color: #888888;
+  letter-spacing: .01em;
+}
+/* End descriptor styles */
+.fiftyChar {
+  width: 100%;
+  max-width: 25em;
+  margin: -.5em 0 0 0;
+}
+.lessltrsp {
+  letter-spacing: .03em;
+}
+.caps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: .02em;
+  margin: 1em 0 3em 0;
+}
+.tisaSans {
+  font-family: 'ff-tisa-sans-web-pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaSansReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaSansRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaSansBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaSansBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+.tisa {
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
