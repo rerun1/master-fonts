@@ -678,25 +678,110 @@
   font-display: swap;
 }
 /* end lato */
-
-
-/* Veteran Typewriter - monospace - in master fonts folder */
-@font-face{
-  font-family : 'typewriter';
-  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot');
-  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot?#iefix') format('eot'),
-        url('../fonts/veteranType/veteran_typewriter.woff2') format('woff2'),
-        url('../fonts/veteranType/veteran_typewriter-webfont.woff') format('woff'),
-        url('../fonts/veteranType/veteran_typewriter.ttf') format('truetype');
-  font-weight: normal;
-  font-style: monospace;
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaReg.eot');
+  src : url('../fonts/tisa/tisaReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaReg.woff') format('woff'),
+        url('../fonts/tisa/tisaReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
   font-variant: normal;
   font-stretch: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaRegIt.eot');
+  src : url('../fonts/tisa/tisaRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBold.eot');
+  src : url('../fonts/tisa/tisaBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBold.woff') format('woff'),
+        url('../fonts/tisa/tisaBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBoldIt.eot');
+  src : url('../fonts/tisa/tisaBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansReg.eot');
+  src : url('../fonts/tisa/tisaSansReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansReg.woff') format('woff'),
+        url('../fonts/tisa/tisaSansReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansRegIt.eot');
+  src : url('../fonts/tisa/tisaSansRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBold.eot');
+  src : url('../fonts/tisa/tisaSansBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBold.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBoldIt.eot');
+  src : url('../fonts/tisa/tisaSansBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*end tisa*/
 /* Ubuntu */
-
 @font-face{
   font-family: 'Ubuntu'; /* Light */
   src : url('../fonts/ubuntu/Ubuntu-L.eot');
@@ -821,6 +906,22 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); */
 
 /* End Ubuntu */
+/* Veteran Typewriter - monospace - in master fonts folder */
+@font-face{
+  font-family : 'typewriter';
+  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot');
+  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot?#iefix') format('eot'),
+        url('../fonts/veteranType/veteran_typewriter.woff2') format('woff2'),
+        url('../fonts/veteranType/veteran_typewriter-webfont.woff') format('woff'),
+        url('../fonts/veteranType/veteran_typewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: monospace;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*end veteran*/
+
 
 /* begin font stacks /
 
@@ -1434,6 +1535,53 @@ input:checked + .showSample + div{
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
  */
 /* end lato */
+
+
+.tisa {
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+.tisaSans {
+  font-family: 'ff-tisa-sans-web-pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaSansReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaSansRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaSansBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaSansBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+
 
 /* ubuntu downloaded from google */
 .ubuntu {
