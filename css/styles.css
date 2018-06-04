@@ -28,13 +28,13 @@
   font-stretch: normal;
   font-display: swap;
 }
-/* altered Berthold name to make this Italic */
+/* altered Berthold name to make this Italic only named truetype with BE */
 @font-face {
   font-family: 'akzidenz-grotesk';
   src : url('../fonts/akzidenz/AkzidGroRomIt.eot');
   src : url('../fonts/akzidenz/AkzidGroRomIt.eot?#iefix') format('eot'),
         url('../fonts/akzidenz/AkzidGroRomIt.woff2') format('woff2'),
-        url('../fonts/akzidenz/AkzidGroRomIt.woff') format('woff'),        url('../fonts/akzidenz/AkzidGroRomIt.ttf') format('truetype');
+        url('../fonts/akzidenz/AkzidGroRomIt.woff') format('woff'),        url('../fonts/akzidenz/AkzidGroBEIt.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-variant: normal;
@@ -61,7 +61,7 @@
   src : url('../fonts/akzidenz/AkzidGroBolIt.eot?#iefix') format('eot'),
         url('../fonts/akzidenz/AkzidGroBolIt.woff2') format('woff2'),
         url('../fonts/akzidenz/AkzidGroBolIt.woff') format('woff'),
-        url('../fonts/akzidenz/AkzidGroBolIt.ttf') format('truetype');
+        url('../fonts/akzidenz/AkzidGroBEBolIt.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
   font-variant: normal;
@@ -410,11 +410,11 @@
 
 /* Copperplate Gothic Thirty Three BC made from Font Converter */
 @font-face {
-  font-family: 'copperplate';
-  src : url('../fonts/coppeGothicThiThr/CoppeThiThrBC.eot');
-  src : url('../fonts/coppeGothicThiThr/CoppeThiThrBC.eot?#iefix') format('eot'),
-        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.woff2') format('woff2'),        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.woff') format('woff'),
-        url('../fonts/coppeGothicThiThr/CoppeThiThrBC.ttf') format('truetype');
+  font-family: 'copperplate-gothic';
+  src : url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.eot');
+  src : url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.eot?#iefix') format('eot'),
+        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.woff2') format('woff2'),        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.woff') format('woff'),
+        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
   font-variant: normal;
@@ -532,13 +532,12 @@
 /* End Eygption Guardian Web Font from github */
 
 
-/* Journal - handwriting - in master fonts folder */
+/* Journal - handwriting - in master fonts folder couldn't convert to woff2 */
 @font-face{
   font-family : 'handwriting';
-  src : url('../fonts/journalHand/journal.eot');
-  src : url('../fonts/journalHand/journal.eot?#iefix') format('eot'),
-        url('../fonts/journalHand/journal.woff2') format('woff2'),
-        url('../fonts/journalHand/journal.woff') format('woff'),
+  src : url('../fonts/journalHand/journal-webfont.eot');
+  src : url('../fonts/journalHand/journal-webfont.eot?#iefix') format('eot'),
+        url('../fonts/journalHand/journal-webfont.woff') format('woff'),
         url('../fonts/journalHand/journal.ttf') format('truetype');
   font-weight: normal;
   font-style: cursive;
@@ -684,10 +683,10 @@
 /* Veteran Typewriter - monospace - in master fonts folder */
 @font-face{
   font-family : 'typewriter';
-  src : url('../fonts/veteranType/veteran_typewriter.eot');
-  src : url('../fonts/veteranType/veteran_typewriter.eot?#iefix') format('eot'),
+  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot');
+  src : url('../fonts/veteranType/veteran_typewriter-webfont.eot?#iefix') format('eot'),
         url('../fonts/veteranType/veteran_typewriter.woff2') format('woff2'),
-        url('../fonts/veteranType/veteran_typewriter.woff') format('woff'),
+        url('../fonts/veteranType/veteran_typewriter-webfont.woff') format('woff'),
         url('../fonts/veteranType/veteran_typewriter.ttf') format('truetype');
   font-weight: normal;
   font-style: monospace;
@@ -1008,6 +1007,7 @@ hr {
   font-size: .8em;
 }
 
+
 /* global styles for samples and descriptors*/
 .caps {
   font-variant-caps: all-small-caps;
@@ -1278,7 +1278,7 @@ input:checked + .showSample + div{
 
 /* copperplate and copperplate condensed typekit */
 .copperplate {
-  font-family: 'copperplate', fantasy;
+  font-family: 'copperplate', serif;
   font-variant: normal;
   font-size: .9em;
 }
@@ -1301,7 +1301,7 @@ input:checked + .showSample + div{
   word-spacing: .04em;
 }
 .copperplateCondensed {
-  font-family: 'copperplate-condensed', fantasy;
+  font-family: 'copperplate-condensed', serif;
   font-variant: normal;
   font-size: .9em;
 }
@@ -1325,7 +1325,7 @@ input:checked + .showSample + div{
 }
 /* Copperplate Gothic Thirty Three Converted */
 .copperplateThirtyThreeBC {
-  font-family: 'copperplate', fantasy;
+  font-family: 'copperplate-gothic', serif;
   font-variant: normal;
   font-weight: normal;
   font-style: normal;
