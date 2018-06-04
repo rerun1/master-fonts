@@ -530,8 +530,21 @@
   font-display: swap;
 }
 /* End Eygption Guardian Web Font from github */
-
-
+/* freight display light*/
+@font-face {
+  font-family: 'freight-display-pro';
+  src : url('../fonts/freight/freightDisplayLight.eot');
+  src : url('../fonts/freight/freightDisplayLight.eot?#iefix') format('eot'),
+        url('../fonts/freight/freightDisplayLight.woff2') format('woff2'),
+        url('../fonts/freight/freightDisplayLight.woff') format('woff'),
+        url('../fonts/freight/freightDisplayLight.ttf') format('truetype');
+  font-weight: 300; /* freight display light from typekit */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*freight*/
 /* Journal - handwriting - in master fonts folder couldn't convert to woff2 */
 @font-face{
   font-family : 'handwriting';
@@ -1473,7 +1486,16 @@ input:checked + .showSample + div{
   font-weight: 700;
 }
 /* End Egyption classes */
-
+/* freight display */
+.freightDisplay {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+}
+.freightDisplayLight {
+  font-style: normal;
+  font-weight: 300;
+}
+/*endFreight*/
 /* Journal script handwriting */
 .journal {
   font-family: 'handwriting', cursive;
