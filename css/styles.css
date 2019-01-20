@@ -298,7 +298,21 @@
   font-display: swap;
 }
 /* end cantarell */
-
+/* carolynaBlack*/
+@font-face {
+  font-family: 'Carolyna Pro Black';
+  src : url('../fonts/carolynaProBlack/CarolynaProBlack.eot');
+  src : url('../fonts/carolynaProBlack/CarolynaProBlack.eot?#iefix') format('eot'),
+        url('../fonts/carolynaProBlack/CarolynaProBlack.woff2') format('woff2'),
+        url('../fonts/carolynaProBlack/CarolynaProBlack.woff') format('woff'),
+        url('../fonts/carolynaProBlack/CarolynaProBlack.ttf') format('truetype');
+  font-weight: 900; /* Carolyna Pro Black */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end carolynaBlack */
 /* ITC cheltenham serif*/
 @font-face {
   font-family: 'cheltenham';
@@ -1156,7 +1170,7 @@
   font-stretch: normal;
   font-display: swap;
 }
-
+/* end ubuntu condensed */
 /* @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); */
 
@@ -1286,10 +1300,15 @@ hr {
 }
 .colorbar {
   background-color: #bebebe;
-  height: 1em;
+  height: .25em;
   border:0;
   color: #bebebe;
   margin: 0 0 3em -.125em;
+}
+.mainHead {
+  font-size: 2em;
+  color: #bebebe;
+  margin: .5em 0 .25em 0;
 }
 
 
@@ -1482,7 +1501,7 @@ input:checked + .showSample + div{
 /*fake no italic for bold,reglight*/
 .akzidenzLightConItalic {
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .02em;
   word-spacing: -.02em;
 }
@@ -1581,6 +1600,7 @@ input:checked + .showSample + div{
   letter-spacing: .025em;
   word-spacing: .03em;
 }
+/* end bodoni font styles */
 
 /* cantarell downloaded from google */
 .cantarell {
@@ -1605,7 +1625,14 @@ input:checked + .showSample + div{
   font-weight: 700;
 }
 /* end cantarell */
-/* cantarell downloaded from google */
+/* CarolynaBlack script handwriting */
+.carolynaBlack {
+  font-family: 'Carolyna Pro Black', serif;
+  font-variant: normal;
+  font-weight: 900;
+  font-style: serif;
+}
+/* cheltenham converted */
 .cheltenham {
   font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
     'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
@@ -1630,7 +1657,7 @@ input:checked + .showSample + div{
   font-style: italic;
   font-weight: 700;
 }
-/* end cantarell */
+/* end cheltenham */
 
 /* copperplate and copperplate condensed typekit */
 .copperplate {
@@ -1741,6 +1768,7 @@ input:checked + .showSample + div{
 /* Journal script handwriting */
 .journal {
   font-family: 'handwriting', cursive;
+  font-size: 1.5em;
   font-variant: normal;
   font-weight: normal;
   font-style: cursive;
