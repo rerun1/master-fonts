@@ -81,6 +81,7 @@
   font-display: swap;
 }
 /* End Akzidenz */
+/* begin akzidenz condensed */
 @font-face {
   font-family: 'akzidenz-grotesk-condensed';
   src : url('../fonts/akzidenzBertCn/AkzidGroBELigCn.eot');
@@ -172,6 +173,21 @@
   font-display: swap;
 }
 /*end akzidenz condensed*/
+/* begin Bernhard Modern */
+@font-face {
+  font-family: 'Bernhard Mdoern';
+  src : url('../fonts/bernhardModern/BernhModBTRom.eot');
+  src : url('../fonts/bernhardModern/BernhModBTRom.eot?#iefix') format('eot'),
+        url('../fonts/bernhardModern/BernhModBTRom.woff2') format('woff2'),
+        url('../fonts/bernhardModern/BernhModBTRom.woff') format('woff'),
+        url('../fonts/bernhardModern/BernhModBTRom.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end Bernhard Modern */
 /* bodoni typekit */
 @font-face {
   font-family: 'bodoni-urw';
@@ -313,6 +329,21 @@
   font-display: swap;
 }
 /* end carolynaBlack */
+/* begin Century Gothic */
+@font-face {
+  font-family: 'Century Gothic';
+  src : url('../fonts/centuryGothic/CenturyGothic.eot');
+  src : url('../fonts/centuryGothic/CenturyGothic.eot?#iefix') format('eot'),
+        url('../fonts/centuryGothic/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/centuryGothic/CenturyGothic.woff') format('woff'),
+        url('../fonts/centuryGothic/CenturyGothic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end Century Gothic */
 /* ITC cheltenham serif*/
 @font-face {
   font-family: 'cheltenham';
@@ -706,6 +737,20 @@
 }
 /* end lato */
 
+/* pt-sans-regular - latin downloaded from google fonts */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('PT Sans'), local('PTSans-Regular'),
+       url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/pt-sans-v9-latin/pt-sans-v9-latin-regular.svg#PTSans') format('svg'); /* Legacy iOS */
+}
+/* end pt-sans */
 
 /* Roboto downloaded from google fonts */
 @font-face {
@@ -1550,6 +1595,14 @@ input:checked + .showSample + div{
   word-spacing: -.01em;
 }
 /*end akzidenz condensed*/
+/* begin Bernhard Modern */
+.bernhardModern {
+  font-family: 'Bernhard Modern', serif;
+  font-variant: normal;
+  font-weight: 400;
+  font-style: serif;
+}
+/* end Bernhard Modern */
 /* bodoni typekit*/
 .bodoni {
   font-family: 'bodoni-urw', serif;
@@ -1632,6 +1685,15 @@ input:checked + .showSample + div{
   font-weight: 900;
   font-style: serif;
 }
+/* end CarolynaBlack script handwriting */
+/* begin Century Gothic */
+.centuryGothic {
+  font-family: 'Century Gothic', serif;
+  font-variant: normal;
+  font-weight: 400;
+  font-style: serif;
+}
+/* end Century Gothic */
 /* cheltenham converted */
 .cheltenham {
   font-family: 'cheltenham', 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
@@ -1827,6 +1889,18 @@ input:checked + .showSample + div{
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
  */
 /* end lato */
+
+
+/* pt sans downloaded from google */
+.ptSans {
+    font-family: 'PT Sans', 'Helvetica Neue',
+      Helvetica, Arial, sans-serif;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.35;
+}
+/* end pt sans */
 
 /* roboto downloaded from google */
 .roboto {
