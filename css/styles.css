@@ -276,22 +276,24 @@
 /* begin Bauer Bodini font converted */
 
 @font-face {
-  font-family: 'Bodoni Bold', serif;
+  font-family: 'Bodoni Bold';
+  font-style: normal;
+  font-weight: 400;
   src : url('../fonts/Bodoni/BodonBTBol.eot');
-  src : url('../fonts/Bodoni/BodonBTBol.eot?#iefix') format('eot'),
+  src : local('Bodoni Bold'), local('BodonBTBol'),
+        url('../fonts/Bodoni/BodonBTBol.eot?#iefix') format('eot'),
         url('../fonts/Bodoni/BodonBTBol.woff2') format('woff2'),
         url('../fonts/Bodoni/BodonBTBol.woff') format('woff'),
         url('../fonts/Bodoni/BodonBTBol.ttf') format('truetype'),
         url('../fonts/Bodoni/BodonBTBol.svg#BodonBTBol') format('svg');
-        font-style: normal;
-        font-variant: normal;
-        font-stretch: normal;
-        font-display: swap;
 }
 @font-face {
-  font-family: 'Bodoni Bold Italic', serif;
+  font-family: 'Bodoni Bold Italic';
+  font-style: normal;
+  font-weight: 400;
   src : url('../fonts/Bodoni/BodonBTBolIta.eot');
-  src : url('../fonts/Bodoni/BodonBTBolIta.eot?#iefix') format('eot'),
+  src : local('Bodoni Bold Italic'), local('BodonBTBolIta'),
+        url('../fonts/Bodoni/BodonBTBolIta.eot?#iefix') format('eot'),
         url('../fonts/Bodoni/BodonBTBolIta.woff2') format('woff2'),
         url('../fonts/Bodoni/BodonBTBolIta.woff') format('woff'),
         url('../fonts/Bodoni/BodonBTBolIta.ttf') format('truetype'),
@@ -302,30 +304,28 @@
         font-display: swap;
 }
 @font-face {
-  font-family: 'Bodoni', serif;
+  font-family: 'Bodoni Roman';
+  font-style: normal;
+  font-weight: 400;
   src : url('../fonts/Bodoni/BodonBTRom.eot');
-  src : url('../fonts/Bodoni/BodonBTRom.eot?#iefix') format('eot'),
+  src : local('Bodoni'), local('BodonBTRom'),
+        url('../fonts/Bodoni/BodonBTRom.eot?#iefix') format('eot'),
         url('../fonts/Bodoni/BodonBTRom.woff2') format('woff2'),
         url('../fonts/Bodoni/BodonBTRom.woff') format('woff'),
         url('../fonts/Bodoni/BodonBTRom.ttf') format('truetype'),
         url('../fonts/Bodoni/BodonBTRom.svg#BodonBTRom') format('svg');
-        font-style: normal;
-        font-variant: normal;
-        font-stretch: normal;
-        font-display: swap;
 }
 @font-face {
-  font-family: 'Bodoni Italic', serif;
+  font-family: 'Bodoni Italic';
+  font-style: normal;
+  font-weight: 400;
   src : url('../fonts/Bodoni/BodonBTIta.eot');
-  src : url('../fonts/Bodoni/BodonBTIta.eot?#iefix') format('eot'),
+  src : local('Bodoni Italic'), local('BodonBTIta'),
+        url('../fonts/Bodoni/BodonBTIta.eot?#iefix') format('eot'),
         url('../fonts/Bodoni/BodonBTIta.woff2') format('woff2'),
         url('../fonts/Bodoni/BodonBTIta.woff') format('woff'),
         url('../fonts/Bodoni/BodonBTIta.ttf') format('truetype'),
         url('../fonts/Bodoni/BodonBTIta.svg#BodonBTIta') format('svg');
-        font-style: normal;
-        font-variant: normal;
-        font-stretch: normal;
-        font-display: swap;
 }
 /* end Bauer Bodoni converted font*/
 
@@ -1185,17 +1185,16 @@
 /* end Roboto Condensed */
 /* begin Special Elite Google Font */
 @font-face {
-  font-family: 'Special Elite', cursive;
-  src : url('../fonts/Special_Elite/SpecialElite-Regular.eot');
-  src : url('../fonts/Special_Elite/SpecialElite-Regular?#iefix') format('eot'),
-        url('../fonts/Special_Elite/SpecialElite-Regular.woff2') format('woff2'),
-        url('../fonts/Special_Elite/SpecialElite-Regular.woff') format('woff'),
-        url('../fonts/Special_Elite/SpecialElite-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Special Elite';
   font-style: normal;
-  font-variant: normal;
-  font-stretch: normal;
-  font-display: swap;
+  font-weight: 400;
+  src: url('../fonts/specialElite/special-elite-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Special Elite Regular'), local('SpecialElite-Regular'),
+       url('../fonts/specialElite/special-elite-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/specialElite/special-elite-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/specialElite/special-elite-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/specialElite/special-elite-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/specialElite/special-elite-v9-latin-regular.svg#SpecialElite') format('svg'); /* Legacy iOS */
 }
 /* end Special Elite Google Font */
 
@@ -1872,26 +1871,31 @@ input:checked + .showSample + div{
 
 /* begin Bauer Bodoni converted font */
 .bauerBodoni {
-  font-family: 'Bodoni', serif;
+  font-family: 'Bodoni Roman';
   font-style: normal;
+  font-weight: 400;
   letter-spacing: .025em;
   word-spacing: .03em;
 }
+
 .bauerBodoniItalic {
-  font-family: 'Bodoni Italic', serif;
+  font-family: 'Bodoni Italic';
   font-style: normal;
+  font-weight: 400;
   letter-spacing: .025em;
   word-spacing: .03em;
 }
 .bauerBodoniBold {
-  font-family: 'Bodoni Bold', serif;
+  font-family: 'Bodoni Bold';
   font-style: normal;
+  font-weight: 400;
   letter-spacing: .02em;
   word-spacing: .03em;
 }
 .bauerBodoniBoldItalic {
-  font-family: 'Bodoni Bold Italic', serif;
+  font-family: 'Bodoni Bold Italic';
   font-style: normal;
+  font-weight: 400;
   letter-spacing: .02em;
   word-spacing: .03em;
 }
@@ -2299,10 +2303,9 @@ input:checked + .showSample + div{
 /* end roboto condensed */
 /* begin special elite from google */
 .specialElite {
-  font-family: 'Special Elite', cursive;
-  font-weight: normal;
+  font-family: 'Special Elite';
   font-style: normal;
-  font-variant: normal;
+  font-weight: 400;
 }
 /* end special elite from google */
 
