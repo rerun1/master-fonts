@@ -273,7 +273,64 @@
 /* @import url("https://use.typekit.net/rvi3agd.css"); */
 /* end bodoni typekit urw */
 
+/* begin Bauer Bodini font converted */
+
+@font-face {
+  font-family: 'Bodoni Bold', serif;
+  src : url('../fonts/Bodoni/BodonBTBol.eot');
+  src : url('../fonts/Bodoni/BodonBTBol.eot?#iefix') format('eot'),
+        url('../fonts/Bodoni/BodonBTBol.woff2') format('woff2'),
+        url('../fonts/Bodoni/BodonBTBol.woff') format('woff'),
+        url('../fonts/Bodoni/BodonBTBol.ttf') format('truetype'),
+        url('../fonts/Bodoni/BodonBTBol.svg#BodonBTBol') format('svg');
+        font-style: normal;
+        font-variant: normal;
+        font-stretch: normal;
+        font-display: swap;
+}
+@font-face {
+  font-family: 'Bodoni Bold Italic', serif;
+  src : url('../fonts/Bodoni/BodonBTBolIta.eot');
+  src : url('../fonts/Bodoni/BodonBTBolIta.eot?#iefix') format('eot'),
+        url('../fonts/Bodoni/BodonBTBolIta.woff2') format('woff2'),
+        url('../fonts/Bodoni/BodonBTBolIta.woff') format('woff'),
+        url('../fonts/Bodoni/BodonBTBolIta.ttf') format('truetype'),
+        url('../fonts/Bodoni/BodonBTBolIta.svg#BodonBTBolIta') format('svg');
+        font-style: normal;
+        font-variant: normal;
+        font-stretch: normal;
+        font-display: swap;
+}
+@font-face {
+  font-family: 'Bodoni', serif;
+  src : url('../fonts/Bodoni/BodonBTRom.eot');
+  src : url('../fonts/Bodoni/BodonBTRom.eot?#iefix') format('eot'),
+        url('../fonts/Bodoni/BodonBTRom.woff2') format('woff2'),
+        url('../fonts/Bodoni/BodonBTRom.woff') format('woff'),
+        url('../fonts/Bodoni/BodonBTRom.ttf') format('truetype'),
+        url('../fonts/Bodoni/BodonBTRom.svg#BodonBTRom') format('svg');
+        font-style: normal;
+        font-variant: normal;
+        font-stretch: normal;
+        font-display: swap;
+}
+@font-face {
+  font-family: 'Bodoni Italic', serif;
+  src : url('../fonts/Bodoni/BodonBTIta.eot');
+  src : url('../fonts/Bodoni/BodonBTIta.eot?#iefix') format('eot'),
+        url('../fonts/Bodoni/BodonBTIta.woff2') format('woff2'),
+        url('../fonts/Bodoni/BodonBTIta.woff') format('woff'),
+        url('../fonts/Bodoni/BodonBTIta.ttf') format('truetype'),
+        url('../fonts/Bodoni/BodonBTIta.svg#BodonBTIta') format('svg');
+        font-style: normal;
+        font-variant: normal;
+        font-stretch: normal;
+        font-display: swap;
+}
+/* end Bauer Bodoni converted font*/
+
 /* cantarell family sans serif*/
+
 @font-face {
   font-family: 'cantarell';
   src : url('../fonts/cantarell/Cantarell-Regular.eot');
@@ -453,19 +510,126 @@
 }
 /* @import url("https://use.typekit.net/rvi3agd.css"); */
 
-/* Copperplate Gothic Thirty Three BC made from Font Converter */
+/* Copperplate Gothic made from Font Converter */
 @font-face {
-  font-family: 'copperplate-gothic';
-  src : url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.eot');
-  src : url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.eot?#iefix') format('eot'),
-        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.woff2') format('woff2'),        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.woff') format('woff'),
-        url('../fonts/coppeGothicThiThrBC/CoppeThiThrBC.ttf') format('truetype');
+  font-family: 'Copperplate Gothic 29AB';;
+  src : url('../fonts/copperplateGothic/CoppeTweNinAB/CoppeTweNinAB.eot');
+  src : url('../fonts/copperplateGothic/CoppeTweNinAB/CoppeTweNinAB.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/CoppeTweNinAB/CoppeTweNinAB.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/CoppeTweNinAB/CoppeTweNinAB.woff') format('woff'),
+        url('../fonts/copperplateGothic/CoppeTweNinAB/CoppeTweNinAB.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
   font-variant: normal;
   font-stretch: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Copperplate Gothic 29BC';;
+  src : url('../fonts/copperplateGothic/CoppeTweNinBC/CoppeTweNinBC.eot');
+  src : url('../fonts/copperplateGothic/CoppeTweNinBC/CoppeTweNinBC.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/CoppeTweNinBC/CoppeTweNinBC.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/CoppeTweNinBC/CoppeTweNinBC.woff') format('woff'),
+        url('../fonts/copperplateGothic/CoppeTweNinBC/CoppeTweNinBC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 30AB';;
+  src : url('../fonts/copperplateGothic/coppeThiAB/CoppeThiAB.eot');
+  src : url('../fonts/copperplateGothic/coppeThiAB/CoppeThiAB.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiAB/CoppeThiAB.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiAB/CoppeThiAB.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiAB/CoppeThiAB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 30BC';;
+  src : url('../fonts/copperplateGothic/coppeThiBC/CoppeThiBC.eot');
+  src : url('../fonts/copperplateGothic/coppeThiBC/CoppeThiBC.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiBC/CoppeThiBC.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiBC/CoppeThiBC.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiBC/CoppeThiBC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 31AB';;
+  src : url('../fonts/copperplateGothic/coppeThiOneAB/CoppeThiOneAB.eot');
+  src : url('../fonts/copperplateGothic/coppeThiOneAB/CoppeThiOneAB.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiOneAB/CoppeThiOneAB.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiOneAB/CoppeThiOneAB.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiOneAB/CoppeThiOneAB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 31BC';;
+  src : url('../fonts/copperplateGothic/coppeThiOneBC/CoppeThiOneBC.eot');
+  src : url('../fonts/copperplateGothic/coppeThiOneBC/CoppeThiOneBC.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiOneBC/CoppeThiOneBC.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiOneBC/CoppeThiOneBC.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiOneBC/CoppeThiOneBC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 32AB';;
+  src : url('../fonts/copperplateGothic/coppeThiTwoAB/CoppeThiTwoAB.eot');
+  src : url('../fonts/copperplateGothic/coppeThiTwoAB/CoppeThiTwoAB.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiTwoAB/CoppeThiTwoAB.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiTwoAB/CoppeThiTwoAB.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiTwoAB/CoppeThiTwoAB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 32BC';;
+  src : url('../fonts/copperplateGothic/coppeThiTwoBC/CoppeThiTwoBC.eot');
+  src : url('../fonts/copperplateGothic/coppeThiTwoBC/CoppeThiTwoBC.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiTwoBC/CoppeThiTwoBC.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiTwoBC/CoppeThiTwoBC.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiTwoBC/CoppeThiTwoBC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Copperplate Gothic 33BC';;
+  src : url('../fonts/copperplateGothic/coppeThiThrBC/CoppeThiThrBC.eot');
+  src : url('../fonts/copperplateGothic/coppeThiThrBC/CoppeThiThrBC.eot?#iefix') format('eot'),
+        url('../fonts/copperplateGothic/coppeThiThrBC/CoppeThiThrBC.woff2') format('woff2'),
+        url('../fonts/copperplateGothic/coppeThiThrBC/CoppeThiThrBC.woff') format('woff'),
+        url('../fonts/copperplateGothic/coppeThiThrBC/CoppeThiThrBC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+
 /* end copperplate */
 
 /* guardian Egyption - in master fonts folder — adapted from guss fonts @ github for prototyping */
@@ -1019,11 +1183,22 @@
   font-display: swap;
 }
 /* end Roboto Condensed */
+/* begin Special Elite Google Font */
 @font-face {
   font-family: 'Special Elite', cursive;
-  src : url('../fonts/Special_Elite/');
-  src : url();
+  src : url('../fonts/Special_Elite/SpecialElite-Regular.eot');
+  src : url('../fonts/Special_Elite/SpecialElite-Regular?#iefix') format('eot'),
+        url('../fonts/Special_Elite/SpecialElite-Regular.woff2') format('woff2'),
+        url('../fonts/Special_Elite/SpecialElite-Regular.woff') format('woff'),
+        url('../fonts/Special_Elite/SpecialElite-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
 }
+/* end Special Elite Google Font */
+
 /*begin tisa*/
 @font-face {
   font-family: 'ff-tisa-web-pro';
@@ -1458,6 +1633,11 @@ hr {
   font-variant: normal;
   font-size: .8em;
 }
+.tocCopperplateGothic {
+  font-family: 'Copperplate Gothic 30AB';
+  font-variant: normal;
+  font-size: .7em;
+}
 
 
 /* global styles for samples and descriptors*/
@@ -1471,6 +1651,9 @@ hr {
 }
 .minusLtrsp {
   letter-spacing: -.02em;
+}
+.extraMinusLtrsp {
+  letter-spacing: -.04em;
 }
 .ltrsp {
   letter-spacing: .1em;
@@ -1687,6 +1870,33 @@ input:checked + .showSample + div{
 }
 /* end bodoni font styles */
 
+/* begin Bauer Bodoni converted font */
+.bauerBodoni {
+  font-family: 'Bodoni', serif;
+  font-style: normal;
+  letter-spacing: .025em;
+  word-spacing: .03em;
+}
+.bauerBodoniItalic {
+  font-family: 'Bodoni Italic', serif;
+  font-style: normal;
+  letter-spacing: .025em;
+  word-spacing: .03em;
+}
+.bauerBodoniBold {
+  font-family: 'Bodoni Bold', serif;
+  font-style: normal;
+  letter-spacing: .02em;
+  word-spacing: .03em;
+}
+.bauerBodoniBoldItalic {
+  font-family: 'Bodoni Bold Italic', serif;
+  font-style: normal;
+  letter-spacing: .02em;
+  word-spacing: .03em;
+}
+/* end Bauer Bodoni converted font */
+
 /* cantarell downloaded from google */
 .cantarell {
   font-family: 'Cantarell', Verdana, Geneva, sans-serif;
@@ -1800,14 +2010,63 @@ input:checked + .showSample + div{
   letter-spacing: .03em;
   word-spacing: .04em;
 }
-/* Copperplate Gothic Thirty Three Converted */
-.copperplateThirtyThreeBC {
-  font-family: 'copperplate-gothic', serif;
+/* begin Copperplate Gothic Converted */
+.copperplateTwentyNineAB {
+  font-family: 'Copperplate Gothic 29AB';
   font-variant: normal;
   font-weight: normal;
   font-style: normal;
 }
-/* end copperplate */
+.copperplateTwentyNineBC {
+  font-family: 'Copperplate Gothic 29BC';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyAB {
+  font-family: 'Copperplate Gothic 30AB';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyBC {
+  font-family: 'Copperplate Gothic 30BC';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyOneAB {
+  font-family: 'Copperplate Gothic 31AB';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyOneBC {
+  font-family: 'Copperplate Gothic 31BC';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyTwoAB {
+  font-family: 'Copperplate Gothic 32AB';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyTwoBC {
+  font-family: 'Copperplate Gothic 32BC';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+.copperplateThirtyThreeBC {
+  font-family: 'Copperplate Gothic 33BC';
+  font-variant: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* end Copperplate Gothic Converted  */
 
 /* guardian typeface from github */
 .egyption {
@@ -2038,7 +2297,14 @@ input:checked + .showSample + div{
   font-weight: 900;
 }
 /* end roboto condensed */
-
+/* begin special elite from google */
+.specialElite {
+  font-family: 'Special Elite', cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+/* end special elite from google */
 
 .tisa {
   font-family: 'ff-tisa-web-pro', serif;
